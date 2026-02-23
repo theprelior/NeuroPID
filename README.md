@@ -25,10 +25,10 @@ This setup closely resembles real-world flight controller architectures.
 
 High-level data flow:
 
-```
+
 
 ![External PID Control Architecture](images/drone_architect.drawio.png)
-```
+
 
 ---
 
