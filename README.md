@@ -27,24 +27,7 @@ High-level data flow:
 
 ```
 
-Gazebo Simulator
-(Drone + Physics)
-|
-|  Sensor Data (IMU, Pose, Velocity)
-v
-Interface / Bridge Layer
-|
-v
-External Controller Device
-(PID Control Loop)
-|
-|  Motor Commands (PWM / Thrust / Torque)
-v
-Interface / Bridge Layer
-|
-v
-Gazebo Motor Plugin
-
+![External PID Control Architecture](images/drone_architect.drawio.png)
 ```
 
 ---
